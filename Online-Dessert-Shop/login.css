@@ -113,6 +113,39 @@ body
 } 
 
 
+.return-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.return-btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+/* Products Button */
+.product-btn {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
 
 
 

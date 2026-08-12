@@ -8,19 +8,30 @@
 </head>
 <body>
 <div class="form">
-    <form action="#">
-        <h2>Register Form</h2><br>
-        <div class="input">
-            
-            <input type="username" placeholder="USERNAME" id="ruser" class="ruser"/><br><br>
-            <input type="password" placeholder="PASSWORD" id="rpass" class="rpass"/><br><br>
-        </div>
-        <div class="button">
-            <br><button type="button" class="login-button" id="login">SIGN UP</button>
-        </div>
-        <div class="return-login">
-            <br><a href="login.html">Login</a>
-        </div>
+            <form action="#">
+            <h2>Register Form</h2><br>
+
+            <div class="input">
+                <input type="username" placeholder="USERNAME" id="ruser" class="ruser"/><br><br>
+                <input type="password" placeholder="PASSWORD" id="rpass" class="rpass"/><br><br>
+            </div>
+
+            <div class="button">
+                <br>
+                <button type="button" class="login-button" id="login">SIGN UP</button>
+            </div>
+
+            <div class="return-signup">
+                <button type="button" class="return-btn login-btn"
+                        onclick="window.location.href='login.html'">
+                    Login
+                </button>
+
+                <button type="button" class="return-btn product-btn"
+                        onclick="window.location.href='product.html'">
+                    Products
+                </button>
+            </div>
     </form> 
 </div> 
 </body>
