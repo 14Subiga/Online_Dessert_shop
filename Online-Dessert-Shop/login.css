@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    justify-content: right;
+    background-image: url("https://png.pngtree.com/background/20230417/original/pngtree-dessert-sand-river-cake-sauce-flowing-background-picture-image_2446028.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    min-height: 100vh;
+}
+.form
+{
+    border:solid 3px transparent;
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 21rem;
+    color:#270215;
+    padding:30px 40px;
+    
+}
+.form:hover{
+    border:5px rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    
+}
+.form h2
+{
+    text-align: center;
+}
+.form .input{
+    width: 98%;
+    height: 100%;
+    border-radius:40px;
+}
+
+.input input{
+    width: 98%;
+    height: 100%;
+    background: transparent;
+    padding :5px;
+    border-radius: 40px;
+    margin: 5px;
+   
+}
+.input input::placeholder
+{
+    text-align: center;
+    color:#270215;
+}
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+.form .remember
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.remember label input{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+.remember a
+{
+    padding-right: 3px;
+}
+.form .button button
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    cursor:pointer;
+    margin-left: 5px;
+    color:white;
+    background-color: #270215;
+}
+.form .sign-up
+{
+    text-align: center;
+}
+.form .sign-up p{
+    color:black;
+}
+.form .sign-up a{
+  color:blue;
+}
+.form .return-login
+{
+    text-align: center;
+} 
+
+
+
+
+
+
